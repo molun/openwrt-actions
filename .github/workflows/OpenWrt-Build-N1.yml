@@ -57,5 +57,5 @@ jobs:
     - name: Upload - push to artifact file
       uses: actions/upload-artifact@v1
       with:
-        name: docker-n1
+        name: Docker-OpenWrt-N1
         path: n1/opt/imgs

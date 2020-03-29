@@ -60,5 +60,5 @@ jobs:
     - name: Upload - push to artifact file
       uses: actions/upload-artifact@v1
       with:
-        name: openwrt-k2p
+        name: OpenWrt-K2P
         path: openwrt/bin/targets/ramips/mt7621/
